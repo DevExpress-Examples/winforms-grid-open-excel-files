@@ -1,3 +1,4 @@
+using DevExpress.DataAccess.Excel;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,7 +15,12 @@ namespace WindowsApplication1
         public Form1()
         {
             InitializeComponent();
-            gridControl1.DataSource = ExcelDataBaseHelper.OpenFile("test.xls");
+            var source = new ExcelDataSource();
+            source.FileName = "test.xls";
+            var worksheetSettings = new ExcelWorksheetSettings("Sheet1", "A1:B3");
+            source.SourceOptions = new ExcelSourceOptions(worksheetSettings);
+            source.Fill();
+            gridControl1.DataSource = source;
         }
     }
 }
