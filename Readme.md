@@ -16,6 +16,6 @@ In v15.2 and higher, you can use the [ExcelDataSource](https://docs.devexpress.c
 
 ## Documentation
 - [Binding to Excel Data Sources](https://docs.devexpress.com/WindowsForms/115529/common-features/data-binding/binding-to-excel-data-sources)
-- 
+
 ## See Also
 - [DevExpress WinForms Troubleshooting - Grid Control](https://go.devexpress.com/CheatSheets_WinForms_Examples_T934742.aspx)
