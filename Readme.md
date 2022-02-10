@@ -3,25 +3,19 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E4104)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
+
+# Data Grid for Windows Forms - How to open Excel files in Grid Control
+
+In v15.2 and higher, you can use the [ExcelDataSource](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.Excel.ExcelDataSource) component to extract data from Microsoft Excel workbooks or CSV files. This example uses this component to display data from an XLS file in a [Grid Control](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.GridControl).
+
+<!-- default file list -->
+## Files to Look At
 * [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
 <!-- default file list end -->
-# How to open Excel files in GridControl
 
+## Documentation
+- [Binding to Excel Data Sources](https://docs.devexpress.com/WindowsForms/115529/common-features/data-binding/binding-to-excel-data-sources)
 
-<p>Our GridControl, as well as any standard control, does not directly work with physical files. There are many reasons for this. For example, it is not possible to get notifications when some part of a physical file is changed. Thus, it will be necessary to reload the entire file each time the GridControl content needs to be refreshed. Also, to save each change made in GridControl, it will be necessary to access this file again. Thus, dealing with physical files directly will be very slow.</p>
-<p>Starting with<strong> version 15.2, </strong><a href="https://documentation.devexpress.com/#CoreLibraries/clsDevExpressDataAccessExcelExcelDataSourcetopic">ExcelDataSource</a><strong> </strong>is available, which allows extracting data from Microsoft Excel workbooks or CSV files. For more information about it, please review the <a href="https://documentation.devexpress.com/WindowsForms/115529/Common-Features/Data-Binding/Binding-to-Excel-Data-Sources">Binding to Excel Data Sources</a> documentation topic.<br><br>If you are using<strong> an older version</strong>, you can populate a DataSet with data from an Excel file and then bind the grid control to this DataSet. To do this, you can use the Microsoft OLE DB Provider for Microsoft Jet. <br>These solutions are described in the following articles:</p>
-<p><a href="http://msdn.microsoft.com/en-us/library/windows/desktop/ms681754(v=vs.85).aspx">Microsoft OLE DB Provider for Microsoft Jet</a></p>
-<p><a href="http://www.codeproject.com/Articles/32370/Import-Excel-File-to-DataSet">Import Excel File to DataSet - CodeProject</a></p>
-<p> </p>
-<p>This example demonstrates this approach in action.</p>
-
-<b>See also:</b>
-
-[DevExpress WinForms Troubleshooting - Grid Control](https://go.devexpress.com/CheatSheets_WinForms_Examples_T934742.aspx)
-
-<br/>
-
-
+## See Also
+- [DevExpress WinForms Troubleshooting - Grid Control](https://go.devexpress.com/CheatSheets_WinForms_Examples_T934742.aspx)
