@@ -8,7 +8,7 @@
 
 This example demonstrates how you can open Excel files in a [Grid Control](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.GridControl) in versions prior to v15.2.
 
-The code uses the Microsoft OLE DB Provider for Microsoft Jet to populate a [DataSet](https://docs.microsoft.com/en-us/dotnet/api/system.data.dataset) with data from an XLS file. This DataSet it then bound to the grid control.
+The code uses the Microsoft OLE DB Provider for Microsoft Jet to populate a [DataSet](https://docs.microsoft.com/en-us/dotnet/api/system.data.dataset) with data from an XLS file. This DataSet is then bound to the grid control.
 
 <!-- default file list -->
 ## Files to Look At
