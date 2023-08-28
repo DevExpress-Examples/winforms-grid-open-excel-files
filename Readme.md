@@ -5,17 +5,19 @@
 <!-- default badges end -->
 
 
-# Data Grid for Windows Forms - How to open Excel files in Grid Control
+# WinForms Data Grid - How to open Excel files (XLS, XLSX)
 
-In v15.2 and higher, you can use the [ExcelDataSource](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.Excel.ExcelDataSource) component to extract data from Microsoft Excel workbooks or CSV files. This example uses this component to display data from an XLS file in a [Grid Control](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.GridControl).
+In v15.2 and higher, you can use the [ExcelDataSource](https://docs.devexpress.com/CoreLibraries/DevExpress.DataAccess.Excel.ExcelDataSource) component to extract data from Microsoft Excel workbooks or CSV files. This example binds the [Grid Control](https://docs.devexpress.com/WindowsForms/DevExpress.XtraGrid.GridControl) to the `ExcelDataSource` component to display data from an XLS file.
 
 <!-- default file list -->
-## Files to Look At
+## Files to Review
 * [Form1.cs](./CS/Form1.cs) (VB: [Form1.vb](./VB/Form1.vb))
 <!-- default file list end -->
 
 ## Documentation
-- [Binding to Excel Data Sources](https://docs.devexpress.com/WindowsForms/115529/common-features/data-binding/binding-to-excel-data-sources)
+
+* [Bind to Excel Data Sources](https://docs.devexpress.com/WindowsForms/115529/common-features/data-binding/binding-to-excel-data-sources)
 
 ## See Also
-- [DevExpress WinForms Troubleshooting - Grid Control](https://go.devexpress.com/CheatSheets_WinForms_Examples_T934742.aspx)
+
+* [DevExpress WinForms Troubleshooting - Grid Control](https://go.devexpress.com/CheatSheets_WinForms_Examples_T934742.aspx)
